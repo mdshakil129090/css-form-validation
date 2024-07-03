@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css
+    ">
+</head>
+<body>
+    <section class="form">
+        <div class="container">
+           <!-- basic form -->
+            <form>
+                <div class="mb-3">
+                  <label for="email1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email1" name="email1" required placeholder="Enter your email address">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="Password1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="Password1" name="Password1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="Check1">
+                  <label class="form-check-label" for="Check1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary mb-5">Submit</button>
+            </form>
+
+          <!-- text area -->
+            <h1 class="text-center mb-5">example for textarea</h1>
+
+            <div class="mb-3">
+                <label for="email2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email2" name="email2" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="Textarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control mb-5" id="Textarea1" name="Textarea1" rows="5"></textarea>
+              </div>
+
+
+                  <!-- readonly -->
+
+            <h1 class="text-center mb-5"> read only form example</h1>
+            <input class="form-control mb-5" type="text" value="Readonly input here..."  readonly>
+
+
+            <!-- file upload -->
+
+            <h1 class="text-center mb-5"> example for file upload</h1>
+            <div class="mb-3">
+                <label for="formfile" class="form-label">Default file input example</label>
+             <input class="form-control mb-5" type="file" id="formfile" name="formfile">
+              </div>
+              <div class="mb-3">
+                <label for=form_file_multiple" class="form-label">Multiple files input example</label>
+                <input class="form-control mb-5" type="file" id="form_file_multiple" name="form_file_multiple" multiple>
+              </div>
+              
+              <div class="mb-3">
+                <label for="form_file_sm" class="form-label">Small file input example</label>
+                <input class="form-control form-control-sm mb-5" id="form_file_sm" name="form_file_sm" type="file">
+              </div>
+              <div>
+                <label for="form_file_lg" class="form-label">Large file input example</label>
+                <input class="form-control form-control-lg mb-5" id="form_file_lg" name="form_file_lg" type="file">
+              </div>
+
+
+              <!-- data list -->
+              <label for="data_list" class="form-label">Datalist example</label>
+              <input class="form-control mb-5" list="datalistOptions" id="data_list" name="data_list"  placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                <option value="Dhaka">
+                <option value="Barishal">
+                <option value="Sylhet">
+                <option value="Khulna">
+                <option value="Chottogram">
+                </datalist>
+            
+        
+        </div>
+       
+          </div>
+    </section>
+    <!-- layout section -->
+    <section class="layout">
+        <div class="container">
+            <h1 class="text-center mb-5">Form Layout example</h1>
+            <form class="row g-3">
+                <div class="col-lg-6">
+                <label for="email" class="form-label"> Email</label>
+                <input type="email" class="form-control" id="email" name="email">
+                </div>
+                
+                <div class="col-lg-6">
+                <label for="email" class="form-label"> Password</label>
+                <input type="email" class="form-control" id="email" name="email">
+                </div >
+                <div class="col-lg-12">
+                    <label for="address1" class="form-label">Address1</label>
+                    <input type="text" class="form-control" id="address1" name="address1" placeholder="12/4 rankin street">
+                </div>
+                <div class="col-lg-12">
+                    <label for="address2" class="form-label">Address2</label>
+                    <input type="text" class="form-control" id="address2" name="address2" placeholder="122/8 topkhana road">
+                </div>
+                <div class="col-lg-6">
+                    <label for="city" class="form-label"> City</label>
+                    <input type="text" class="form-control" id="city" name="city">
+                </div>
+                <div class="col-lg-4">
+                    <label for="state" class="form-label"> State</label>
+                    <input type="text" class="form-control" id="state" name="state">
+                </div>
+                <div class="col-lg-2">
+                    <label for="zip" class="form-label"> Zip</label>
+                    <input type="text" class="form-control" id="zip" name="zip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="check_box">
+                      <label class="form-check-label" for="check_box" name="check_box">
+                        Check me out
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
+                
+            </form>
+        </div>
+    </section>
+  
+    <!-- layout section end -->
+ 
+
+    
+
+
+
+
+
+    <!-- script link -->
+    <script src="java sc/bootstrap.bundle.min.js"></script>
+    <script src="java sc/script.js"></script>
+</body>
+</html>
